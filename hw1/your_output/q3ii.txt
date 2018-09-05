@@ -1,0 +1,14 @@
+ playerid  | namefirst | namelast  |       lslg        
+-----------+-----------+-----------+-------------------
+ ruthba01  | Babe      | Ruth      |  0.68980709692784
+ willite01 | Ted       | Williams  | 0.633791850506099
+ gehrilo01 | Lou       | Gehrig    | 0.632420947381577
+ hoskirh01 | Rhys      | Hoskins   | 0.617647058823529
+ foxxji01  | Jimmie    | Foxx      | 0.609294320137694
+ bondsba01 | Barry     | Bonds     | 0.606885345790596
+ greenha01 | Hank      | Greenberg | 0.605045253225496
+ bassjo01  | John      | Bass      |               0.6
+ olsonma02 | Matt      | Olson     |               0.6
+ judgeaa01 | Aaron     | Judge     | 0.589456869009585
+(10 rows)
+
