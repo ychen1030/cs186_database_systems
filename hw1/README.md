@@ -260,7 +260,45 @@ yours and ours manually line-by-line, make sure you use the proper ORDER BY
 clause (you can determine this by looking in `test.sh`).
 
 ## Submission
-You will be submitting your `hw1.sql` file to edX for autograding. Instructions on that will appear here shortly!
+You will be submitting your `hw1.sql` file to edX for autograding. The homework is due this Friday (9/7) at 11:59 pm.
+
+To submit your homework, please follow the instructions below.
+1) Open a terminal and run docker
+```
+docker run -v <pathname-to-directory-on-your-machine>:/cs186 -it cs186/environment bash
+```
+
+2)  Within the docker container, run the following commands
+```
+ubuntu@3c0823881763:/$ cd /cs186/hw1
+ubuntu@3c0823881763:/cs186/hw1$ git pull origin master
+ubuntu@3c0823881763:/cs186/hw1$ ls
+```
+You should now see `turn_in.py` and `public.key` in the hw1 directory. 
+
+3) Still within the docker container, run the following commands. Replace `<your-student-id>` with your Berkeley student id number.
+```
+ubuntu@3c0823881763:/cs186/hw1$ python3 turn_in.py --student-id <your-student-id>
+ubuntu@3c0823881763:/cs186/hw1$ ls
+```
+You should see "Created hw1.zip" in your terminal output and `hw1.zip` in the hw1 directory. 
+Don't worry that you also see output that starts with `gpg:`. This is expected.
+
+##### Having trouble with this step?
+
+Double check that the .sql file you want to submit is named `hw1.sql`. If you renamed the `hw1.sql` file or moved the file to a different location, the command won't work.
+
+4) Navigate to the subsection in edX called Homework 1 Submission.
+5) Open up the section until you see the option to choose a file
+6) Click Choose Files
+7) Select the `hw1.zip` file that you created in step 3. *Note*: You should find the zip file at `<pathname-to-directory-on-your-machine>/hw1`'
+8) Click Submit
+
+Please use the steps above to submit your homework, and comment in the HW1 Submission Piazza thread if you have submission problems.
+
+If all else fails and it's near the deadline, please use your Berkeley email and send your `hw1.sql` file to cs186berkeley.backup@gmail.com. Title the subject of the email HW1 Submission.
+
+Congratulations! You finished your first homework!
 
 ## Questions?
 Please direct all questions to Piazza. Others may have the same question and would benefit from seeing the question and answer! Questions that reveal partial answers should be posted privately.
