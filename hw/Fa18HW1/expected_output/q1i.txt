@@ -1,0 +1,6 @@
+ namefirst | namelast | birthyear 
+-----------+----------+-----------
+ Jumbo     | Diaz     |      1984
+ Walter    | Young    |      1980
+(2 rows)
+

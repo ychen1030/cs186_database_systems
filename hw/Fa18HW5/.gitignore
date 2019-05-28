@@ -1,0 +1,11 @@
+# Ignore all maven build and test files
+target/*
+*.class
+*.swp
+*.swo
+# Ignore all IntelliJ IDEA files
+.idea/*
+*.iml
+# Ignore all OSX hidden files
+*.DS_Store
+/bin/

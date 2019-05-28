@@ -1,0 +1,14 @@
+ playerid  | namefirst | namelast | yearid |        slg        
+-----------+-----------+----------+--------+-------------------
+ spencsh01 | Shane     | Spencer  |   1998 |  0.91044776119403
+ willite01 | Ted       | Williams |   1953 | 0.901098901098901
+ bondsba01 | Barry     | Bonds    |   2001 | 0.863445378151261
+ ruthba01  | Babe      | Ruth     |   1920 | 0.849015317286652
+ ruthba01  | Babe      | Ruth     |   1921 | 0.846296296296296
+ bakerje03 | Jeff      | Baker    |   2006 | 0.824561403508772
+ anderma02 | Marlon    | Anderson |   2006 |            0.8125
+ bondsba01 | Barry     | Bonds    |   2004 | 0.812332439678284
+ bondsba01 | Barry     | Bonds    |   2002 | 0.799007444168734
+ ruthba01  | Babe      | Ruth     |   1927 | 0.772222222222222
+(10 rows)
+
