@@ -1,6 +1,0 @@
- playerid  | namefirst | namelast  |  salary  | yearid 
------------+-----------+-----------+----------+--------
- brownke01 | Kevin     | Brown     | 15714286 |   2000
- rodrial01 | Alex      | Rodriguez | 22000000 |   2001
-(2 rows)
-
